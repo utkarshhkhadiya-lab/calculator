@@ -11,19 +11,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(95deg,black,rgb(95, 95, 95));
+    background: linear-gradient(95deg,rgb(129, 110, 48),rgb(1, 63, 14));
 }
 .calculator{
     border: 1px solid #717377;
     padding: 20px;
     border-radius: 20px;
     /* background: transparent; */
-    box-shadow: 0px 3px 10px rgb(146, 145, 145)
+    box-shadow: 0px 3px 10px rgb(39, 39, 39)
 }
 input{
     background: transparent;
     border:none;
-    /* box-shadow: 0px 0px 10px rgb(146, 145, 145); */
+    box-shadow: 0px 0px 10px rgb(39, 39, 39);
+    border-radius: 20px;
     padding:10px;
     width:320px;
     font-size: 20px;
